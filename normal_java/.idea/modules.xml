@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Exception&amp;Thread/Exception&amp;Thread.iml" filepath="$PROJECT_DIR$/Exception&amp;Thread/Exception&amp;Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myssm/myssm.iml" filepath="$PROJECT_DIR$/myssm/myssm.iml" />
     </modules>
   </component>
 </project>
