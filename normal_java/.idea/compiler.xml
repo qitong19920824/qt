@@ -7,10 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="myssm" />
+        <module name="Spring1" />
+        <module name="Spring2" />
+        <module name="Spring3" />
+        <module name="Spring4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="itheima_spring_mvc" target="1.5" />
       <module name="myssm" target="1.8" />
+      <module name="Spring1" target="1.5" />
+      <module name="Spring2" target="6" />
+      <module name="Spring3" target="1.5" />
+      <module name="Spring4" target="1.5" />
+      <module name="SpringMVC_1" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

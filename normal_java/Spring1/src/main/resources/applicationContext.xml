@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation=" http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--工厂静态方法实例化-->
+    <!--<bean id="Iuserdao" class="dao.StaticFactoryBean" factory-method="createBean"></bean>-->
+    <!--工厂非静态方法-->
+    <!--<bean id="factoryBean" class="dao.DynamicFactoryBean"/>
+    <bean id="Iuserdao" factory-bean="factoryBean" factory-method="createUserDao"></bean>-->
+    <!--<bean id="Iuserdao" class="dao.IuserDaoImpl">
+        <property name="name" value="qitong"/>
+        <property name="gender" value="male"/>
+        <property name="list">
+            <list>
+                <value>aaa</value>
+                <value>abc</value>
+                <value>aaa</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="u1" class="domain.User">
+        <property name="country" value="china"></property>
+        <property name="lanuage" value="chinese/"/>
+    </bean>
+    <bean id="u2" class="domain.User">
+        <property name="lanuage" value="english"/>
+        <property name="country" value="Americian"/>
+    </bean>
+    <bean id="userService" class="service.UserServiceImpl" p:iuserDao-ref="Iuserdao">
+        <property name="iuserDao" ref="Iuserdao"/>
+        <property name="users">
+            <list>
+                <ref bean="u1"></ref>
+                <ref bean="u2"></ref>
+            </list>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="k1" >1</prop>
+                <prop key="k2" >2</prop>
+                <prop key="k3" >3</prop>
+            </props>
+        </property>
+    </bean>-->
+    <import resource="applicationContext1.xml"/>
+
+</beans>

@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Exception&amp;Thread/Exception&amp;Thread.iml" filepath="$PROJECT_DIR$/Exception&amp;Thread/Exception&amp;Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring1/Spring1.iml" filepath="$PROJECT_DIR$/Spring1/Spring1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring2/Spring2.iml" filepath="$PROJECT_DIR$/Spring2/Spring2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring3/Spring3.iml" filepath="$PROJECT_DIR$/Spring3/Spring3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring4/Spring4.iml" filepath="$PROJECT_DIR$/Spring4/Spring4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Web/Web.iml" filepath="$PROJECT_DIR$/Web/Web.iml" />
       <module fileurl="file://$PROJECT_DIR$/myssm/myssm.iml" filepath="$PROJECT_DIR$/myssm/myssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suanfa/suanfa.iml" filepath="$PROJECT_DIR$/suanfa/suanfa.iml" />
     </modules>
   </component>
 </project>
