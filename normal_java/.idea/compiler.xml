@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="myssm" />
+        <module name="POI" />
         <module name="Spring1" />
         <module name="Spring2" />
         <module name="Spring3" />
@@ -16,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="itheima_spring_mvc" target="1.5" />
       <module name="myssm" target="1.8" />
+      <module name="POI" target="1.5" />
       <module name="Spring1" target="1.5" />
       <module name="Spring2" target="6" />
       <module name="Spring3" target="1.5" />
